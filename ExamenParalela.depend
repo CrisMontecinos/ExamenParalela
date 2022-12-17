@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1671254179 source:d:\examen paralela\examenparalela\main.cpp
+	<iostream>
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	<vector>
+	<ctime>
+	<cstring>
+	<cmath>
+
