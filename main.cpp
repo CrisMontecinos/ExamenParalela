@@ -12,7 +12,7 @@
 using namespace std;
 
 /**
- * Funcion para convertir fechas a segundos gracias .
+ * Funcion para convertir fechas a segundos gracias a la libreira <ctime>.
  *
  * @param anio tipo de puntero que apunta a una cadena de caracteres
  * @param mes tipo de puntero que apunta a una cadena de caracteres
@@ -48,7 +48,7 @@ double fecha_a_segundos(char* anio, char* mes, char* dia) {
  * @param y vectores de enteros
  * @param contador entero que indica el tamaño
  * @param segundos es un flotante con la fecha en segundos ingresada por el usuario para hacer la preddicion
- * @return ecuaciondelaRecta es el resultado de toda la operacion para
+ * @return ecuaciondelaRecta es el resultado de toda la operacion para hacer la regrecion lineal: ordenada + (pendiente * segundos);
  */
 
 float regresionLineal(vector<int> x,vector<int> y, int contador, float segundos ){
